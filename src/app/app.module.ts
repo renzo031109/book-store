@@ -9,16 +9,23 @@ import { BookStoreService } from './books';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import 'hammerjs';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { AppMaterialModule } from './app-material.module';
+
+import { MasterDetailComponent } from './books/master-detail/master-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Safe
+    Safe,
+    MasterDetailComponent
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FlexLayoutModule,
+    AppMaterialModule
   ],
   providers: [BookStoreService],
   bootstrap: [AppComponent]
