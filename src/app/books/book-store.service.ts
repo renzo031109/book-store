@@ -9,7 +9,7 @@ import { Book } from './book';
 @Injectable()
 export class BookStoreService {
 
-  baseUrl = 'http://58e15045f7d7f41200261f77.mockapi.io/api/v1/books/';
+  baseUrl = 'http://localhost:4567/books/';
   headers = new Headers({'Content-Type': 'application/json'});
 
   constructor(private http: Http) {

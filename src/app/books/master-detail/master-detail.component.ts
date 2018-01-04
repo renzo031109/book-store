@@ -13,6 +13,7 @@ export class MasterDetailComponent implements OnInit {
   selectedBook: Book;
   constructor(private bookStoreService: BookStoreService) {
   }
+  
   ngOnInit() {
     this.bookStoreService
       .getBooks()
