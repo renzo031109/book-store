@@ -13,12 +13,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppMaterialModule } from './app-material.module';
 
 import { MasterDetailComponent } from './books/master-detail/master-detail.component';
+import { ListComponent } from './books/list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Safe,
-    MasterDetailComponent
+    MasterDetailComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
