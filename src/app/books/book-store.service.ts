@@ -9,7 +9,7 @@ import { Book } from './book';
 @Injectable()
 export class BookStoreService {
 
-  baseUrl = 'http://localhost:4567/books/';
+  baseUrl = 'https://my-json-server.typicode.com/renzo031109/sample-only/books/';
   headers = new Headers({'Content-Type': 'application/json'});
 
   constructor(private http: Http) {

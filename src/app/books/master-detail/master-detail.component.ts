@@ -5,7 +5,7 @@ import { BookStoreService } from '../book-store.service';
 @Component({
   selector: 'app-master-detail',
   templateUrl: './master-detail.component.html',
-  styleUrls: ['./master-detail.component.css']
+  styleUrls: ['./master-detail.component.scss']
 })
 export class MasterDetailComponent implements OnInit {
 
