@@ -9,12 +9,17 @@ import 'rxjs/add/operator/switchMap';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styles: [`
+  md-sidenav {
+    width: 300px;
+  }
+`]
 })
 export class AppComponent {
-  links = [{
-    name: 'Books'
-  }];
+  links = [
+    { name: 'Books', path: 'books' },
+    { name: 'Registration', path: 'registration' }
+  ];
 
   constructor(private dialog: MatDialog,
               private snackBar: MatSnackBar,

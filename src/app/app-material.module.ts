@@ -10,8 +10,11 @@ import {
   MatSnackBarModule,
   MatProgressSpinnerModule,
   MatInputModule,
-  MatDialogModule
-
+  MatDialogModule,
+  MatSelectModule,
+  MatRadioModule,
+  MatCheckboxModule,
+  MatSlideToggleModule
 
 } from '@angular/material';
 
@@ -26,7 +29,11 @@ const MATERIAL_MODULES = [
   MatSnackBarModule,
   MatProgressSpinnerModule,
   MatInputModule,
-  MatDialogModule
+  MatDialogModule,
+  MatSelectModule,
+  MatRadioModule,
+  MatCheckboxModule,
+  MatSlideToggleModule
  
 ];
 
